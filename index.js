@@ -70,4 +70,9 @@ server.listen(PORT,hostname,()=>{
 });
 
 
+//Give current directory name:
+console.log(__dirname);
+
+//Give current directory name:
+console.log(__filename);
 

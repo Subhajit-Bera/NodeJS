@@ -5,4 +5,4 @@
 // a.average(10,4);
 // a.percent(20,100);
 
-//run this file instead of index.js to see the woking of this
+//run this file instead of index.js to see the woking of this -> node/nodemon ./app.js
