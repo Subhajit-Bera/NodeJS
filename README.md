@@ -6,4 +6,6 @@ Node.js is a cross-platform, open-source server environment that can run on Wind
 That's why Node Js is called a server-side language but basically it's a runtime environment.
 
 
+Now if we want to run JavaScript in any IDE ,we don’t have to create a **.html** file and link **.js** to it.We can simply create a **.js** file and write JavaScript in it and see the output on the terminal.
 
+ ### Command to run a JavaScript file in VS code : **node ./filename**
