@@ -6,6 +6,21 @@ Node.js is a cross-platform, open-source server environment that can run on Wind
 That's why Node Js is called a server-side language but basically it's a runtime environment.
 
 
-Now if we want to run JavaScript in any IDE ,we don’t have to create a **.html** file and link **.js** to it.We can simply create a **.js** file and write JavaScript in it and see the output on the terminal.
+#### Now if we want to run JavaScript in any IDE ,we don’t have to create a **.html** file and link **.js** to it.
+#### We can simply create a **.js** file and write JavaScript in it and see the output on the terminal.
+### Command to run a JavaScript file in VS code : **node ./filename**
 
- ### Command to run a JavaScript file in VS code : **node ./filename**
+The **.js** file created for node can also link with html and run. Because both are the same file. There are some mild differences. </br>
+One of them:</br>
+
+#### index.js
+```
+console.log(window)
+```
+#### browser output:
+![image](https://github.com/Subhajit-Bera/NodeJS-Beginners/assets/103336107/5a1f10ff-8cfe-4927-9ce3-638d1b09cfa1)
+
+#### terminal output:
+![image](https://github.com/Subhajit-Bera/NodeJS-Beginners/assets/103336107/65753a39-5115-4c6d-85c8-4373d0d91516)
+
+#### Reason : Everything we write in JavaScript comes under the window object. We use it to perform DOM manipulation.Window object is a frontend browser object , so we can not access it in the backend. That’s why it gives errors.
