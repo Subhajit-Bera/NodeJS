@@ -24,3 +24,7 @@ console.log(window)
 ![image](https://github.com/Subhajit-Bera/NodeJS-Beginners/assets/103336107/65753a39-5115-4c6d-85c8-4373d0d91516)
 
 #### Reason : Everything we write in JavaScript comes under the window object. We use it to perform DOM manipulation.Window object is a frontend browser object , so we can not access it in the backend. That’s why it gives errors.
+
+***
+---
+
